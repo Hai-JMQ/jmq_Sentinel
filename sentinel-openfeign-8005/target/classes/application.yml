@@ -1,0 +1,32 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: sentinel-openfeign8005
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            data-id: sentinel-chijiu
+            group-id: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
+#开启feign和sentinel整合
+feign:
+  sentinel:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

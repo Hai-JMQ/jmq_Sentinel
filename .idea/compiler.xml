@@ -2,11 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jmq_sentinel" />
+        <module name="common-api" />
+        <module name="sentine-l8001" />
+        <module name="sentinel-consumer-8004" />
+        <module name="sentinel-openfeign-8005" />
+        <module name="sentinel-produce-9001" />
+        <module name="sentinel-produce-9002" />
       </profile>
     </annotationProcessing>
   </component>

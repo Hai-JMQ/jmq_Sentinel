@@ -1,32 +1,919 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../spring-boot-2.2.3.RELEASE" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-boot-2.3.1.RELEASE" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-bootRELEASE" value="PREVIEW" />
-      </map>
+  <component name="ChangeListManager">
+    <list default="true" id="592fdbcb-8090-4142-8524-8ad7a980ae3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/com/spring/cloud/config/ResultConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/com/spring/cloud/entity/Dingdan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/com/spring/cloud/entity/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentine-l8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/ApplicationSentinel8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/controller/SentinelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/controller/SentinelResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/global/SentinelResourceGlobal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentine-l8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-consumer-8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/ApplicationConsumer8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/config/RestTempalteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-consumer-8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-openfeign-8005/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/ApplicationOpenfeign8005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/controller/OpenFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/global/OpenfeignGlobal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/service/OpenfeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9001/src/main/java/com/jmq/prodoce/ApplicationProdoce9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9001/src/main/java/com/jmq/prodoce/controller/ProdoceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9002/src/main/java/com/jmq/prodoce/ApplicationProdoce9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9002/src/main/java/com/jmq/prodoce/controller/ProdoceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel-produce-9002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sentine-l8001/target/" />
+    <ignored path="$PROJECT_DIR$/common-api/target/" />
+    <ignored path="$PROJECT_DIR$/sentinel-consumer-8004/target/" />
+    <ignored path="$PROJECT_DIR$/sentinel-produce-9001/target/" />
+    <ignored path="$PROJECT_DIR$/sentinel-produce-9002/target/" />
+    <ignored path="$PROJECT_DIR$/sentinel-openfeign-8005/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/service/OpenfeignService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/global/OpenfeignGlobal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentinel-produce-9001/src/main/java/com/jmq/prodoce/controller/ProdoceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/controller/OpenFeignController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/ApplicationOpenfeign8005.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SentinelResource</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel801/ApplicationSentinel801.java" />
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/ApplicationSentinel801.java" />
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/resources/appllication.yml" />
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/ApplicationSentinel8001.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/controller/SentinelController.java" />
+        <option value="$PROJECT_DIR$/common-api/pom.xml" />
+        <option value="$PROJECT_DIR$/sentine-l8001/pom.xml" />
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/controller/SentinelResource.java" />
+        <option value="$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/global/SentinelResourceGlobal.java" />
+        <option value="$PROJECT_DIR$/sentinel-consumer-8004/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/config/RestTempalteConfig.java" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sentinel-consumer-8004/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/ApplicationConsumer8004.java" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9001/src/main/java/com/jmq/prodoce/ApplicationProdoce9001.java" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9002/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9002/src/main/java/com/jmq/prodoce/ApplicationProdoce9002.java" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9002/src/main/java/com/jmq/prodoce/controller/ProdoceController.java" />
+        <option value="$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/ApplicationOpenfeign8005.java" />
+        <option value="$PROJECT_DIR$/sentinel-openfeign-8005/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/service/OpenfeignService.java" />
+        <option value="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/global/OpenfeignGlobal.java" />
+        <option value="$PROJECT_DIR$/sentinel-produce-9001/src/main/java/com/jmq/prodoce/controller/ProdoceController.java" />
+        <option value="$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/controller/OpenFeignController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="y" value="118" />
-    <option name="width" value="1466" />
-    <option name="height" value="1056" />
+    <option name="x" value="-123" />
+    <option name="y" value="12" />
+    <option name="width" value="1489" />
+    <option name="height" value="968" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-openfeign-8005" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-produce-9001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-produce-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-produce-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-produce-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-produce-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prodoce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jmq_sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmq_sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel-produce-9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prodoce" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596809238316" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.21645021" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationOpenfeign8005">
+    <configuration name="ApplicationConsumer8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-consumer-8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jmq.consumer.ApplicationConsumer8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationOpenfeign8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sentinel-openfeign-8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jmq.openfeign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jmq.openfeign.ApplicationOpenfeign8005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationProdoce9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-produce-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jmq.prodoce.ApplicationProdoce9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationProdoce9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-produce-9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jmq.prodoce.ApplicationProdoce9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationSentinel8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sentine-l8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jmq.sentinel8001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jmq.sentinel8001.ApplicationSentinel8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApplicationOpenfeign8005" />
+        <item itemvalue="Spring Boot.ApplicationSentinel8001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="592fdbcb-8090-4142-8524-8ad7a980ae3d" name="Default Changelist" comment="" />
+      <created>1596684777045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596684777045</updated>
+      <workItem from="1596684780266" duration="1034000" />
+      <workItem from="1596685834384" duration="4360000" />
+      <workItem from="1596692962244" duration="13989000" />
+      <workItem from="1596764366141" duration="21542000" />
+      <workItem from="1596809964712" duration="443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41368000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3001066" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5482833" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37446353" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32939914" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.36909872" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2631579" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.32939914" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5482833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.28969958" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32939914" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="16" />
+      <window_info anchor="bottom" id="Problems" order="17" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" />
+      <window_info anchor="bottom" id="Messages" order="19" weight="0.32939914" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.26332623" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sentine-l8001/src/main/resources/appllication.yml" />
+    <entry file="file://$PROJECT_DIR$/sentine-l8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/ApplicationSentinel8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="263" column="32" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/spring/cloud/entity/Dingdan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/spring/cloud/entity/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="134" column="11" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_131/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3810">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+          <folding>
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/controller/SentinelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/global/SentinelResourceGlobal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentine-l8001/src/main/java/com/jmq/sentinel8001/controller/SentinelResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentine-l8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="54" column="21" selection-start-line="13" selection-start-column="7" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/config/RestTempalteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-consumer-8004/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9002/src/main/java/com/jmq/prodoce/ApplicationProdoce9002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/ApplicationConsumer8004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/spring/cloud/config/ResultConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9002/src/main/java/com/jmq/prodoce/controller/ProdoceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/annotation/SentinelResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-consumer-8004/src/main/java/com/jmq/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9001/src/main/java/com/jmq/prodoce/ApplicationProdoce9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-consumer-8004/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.2.1.RELEASE/spring-cloud-openfeign-core-2.2.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/service/impl/OpenfeignServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/service/OpenfeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/global/OpenfeignGlobal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-produce-9001/src/main/java/com/jmq/prodoce/controller/ProdoceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/ApplicationOpenfeign8005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel-openfeign-8005/src/main/java/com/jmq/openfeign/controller/OpenFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -45,6 +932,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jmq_sentinel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
